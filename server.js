@@ -8,7 +8,7 @@ app.use(express.static(__dirname))
 app.use(express.urlencoded({extended:true}))
 
 
-const mongoURI = "mongodb+srv://ashwan:Ashu%4018082003@cluster0.zwzfg.mongodb.net/";
+const mongoURI = "#give mongodb connection code";
 
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,
